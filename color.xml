@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#673AB7</color>
+    <color name="colorPrimaryDark">#512DA8</color>
+    <color name="tabsScrollColor">#fff</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="gray_black">#cc000000</color>
+    <color name="colorAccent">#673AB7</color>
+    <color name="pb_love">#cc0b11</color>
+    <color name="pb_job">#2777f2</color>
+    <color name="pb_happiness">#ffff00</color>
+    <color name="pb_health">#2b7f25</color>
+    <color name="pb_bg">#e6e6e6</color>
+
+    <color name="orange">#d35616</color>
+    <color name="purple">#905da2</color>
+    <color name="blue">#2881bb</color>
+    <color name="green">#21a085</color>
+
+    <color name="dark_orange">#A94512</color>
+    <color name="dark_purple">#7b4f8a</color>
+    <color name="dark_blue">#2670a1</color>
+    <color name="dark_green">#1d8871</color>
+
+
+
+
+    <!--    <color name="ColorPrimary">#8d1ab2</color>
+    <color name="ColorPrimaryDark">#8000aa</color>
+    <color name="tabsScrollColor">#5a00aa</color> -->
+</resources>

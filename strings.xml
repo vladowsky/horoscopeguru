@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Horoskop Guru</string>
+    <string name="title_horoscope_detail">Horoscope Detail</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ad_unit_id">ca-app-pub-8519645726186595/2552803631</string>
+    <string name="title_activity_love_calculator_result">LoveCalculatorResultActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
