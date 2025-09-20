@@ -1,0 +1,76 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="hr.horoskop.horoskop.fragments.MoonFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/iv_moon_sign"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/black"
+        android:id="@+id/tv_moon"
+        android:padding="16dp"
+        android:layout_below="@+id/iv_moon_sign" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:background="@drawable/gradient"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:gravity="left|bottom"
+        android:id="@+id/tv_moon_sign_title"
+        android:layout_above="@+id/tv_moon"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true" />
+
+    <RelativeLayout
+        android:id="@+id/rl_internet"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="invisible"
+        android:padding="16dp"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:src="@drawable/ic_connection"
+            android:id="@+id/imageView"
+            android:layout_above="@+id/tv_no_internet"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_no_internet"
+            android:text="Provjerite vašu Internet konekciju!"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

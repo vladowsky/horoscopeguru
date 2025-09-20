@@ -1,0 +1,240 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+
+    android:layout_height="match_parent"
+    android:background="#e5e5e5"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="8dp"
+    android:paddingTop="8dp"
+    tools:context="hr.horoskop.horoskop.fragments.InfoFragment"
+    android:layout_width="fill_parent">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:focusable="true"
+        android:clickable="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="4dp"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardCornerRadius="2dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:padding="16dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:paddingRight="16dp"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:textColorLink="@color/gray_black"
+                android:text="www.horoscope.guru"
+                android:autoLink="web"
+                android:layout_below="@+id/textView"
+                android:id="@+id/textView2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:text="Web"
+                android:paddingTop="8dp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:id="@+id/textView"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:paddingRight="16dp"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:textColorLink="@color/gray_black"
+                android:autoLink="web"
+                android:text="fb.com/horoscopeguruapp"
+                android:layout_below="@+id/textView1"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_alignStart="@+id/textView1"
+                android:id="@+id/textView4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:text="Facebook"
+                android:paddingTop="8dp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:id="@+id/textView1"
+                android:layout_below="@+id/textView2"
+                android:layout_alignLeft="@+id/textView2"
+                android:layout_alignStart="@+id/textView2"
+                android:layout_alignRight="@+id/textView2"
+                android:layout_alignEnd="@+id/textView2" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:paddingRight="16dp"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="info@horoscope.guru"
+                android:textColorLink="@color/gray_black"
+                android:autoLink="email"
+                android:layout_below="@+id/textView3"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_alignStart="@+id/textView3"
+                android:id="@+id/textView5"
+             />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:text="Kontakt"
+                android:paddingTop="8dp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:id="@+id/textView3"
+                android:layout_below="@+id/textView4"
+                android:layout_alignLeft="@+id/textView4"
+                android:layout_alignStart="@+id/textView4"
+                android:layout_alignRight="@+id/textView4"
+                android:layout_alignEnd="@+id/textView4" />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:paddingRight="16dp"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="horoscope.guru/privatnost.html"
+                android:textColorLink="@color/gray_black"
+                android:id="@+id/textView7"
+                android:autoLink="web"
+                android:layout_below="@+id/textView6"
+                android:layout_alignLeft="@+id/textView6"
+                android:layout_alignStart="@+id/textView6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:text="Uvjeti korštenja i privatnost"
+                android:paddingTop="8dp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:id="@+id/textView6"
+                android:layout_below="@+id/textView5"
+                android:layout_alignLeft="@+id/textView5"
+                android:layout_alignStart="@+id/textView5"
+                android:layout_alignRight="@+id/textView5"
+                android:layout_alignEnd="@+id/textView5" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray_black"
+                android:paddingRight="16dp"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="Google Play"
+                android:id="@+id/textView8"
+                android:layout_below="@+id/textView9"
+                android:layout_alignLeft="@+id/textView9"
+                android:layout_alignStart="@+id/textView9" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:text="Ocijeni aplikaciju"
+                android:paddingTop="8dp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:id="@+id/textView9"
+                android:layout_below="@+id/textView7"
+                android:layout_alignLeft="@+id/textView7"
+                android:layout_alignStart="@+id/textView7"
+                android:layout_alignRight="@+id/textView7"
+                android:layout_alignEnd="@+id/textView7" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray_black"
+                android:paddingRight="16dp"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="1.0.0"
+                android:id="@+id/textView10"
+                android:layout_below="@+id/textView11"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:text="Verzija"
+                android:paddingTop="8dp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:id="@+id/textView11"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView8"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearance"
+                android:text="© 2015 ATECOing"
+                android:id="@+id/textView13"
+                android:paddingTop="16dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:layout_below="@+id/textView10"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>
+</ScrollView>
